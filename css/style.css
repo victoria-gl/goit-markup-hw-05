@@ -958,6 +958,7 @@ address {
 
 .modal-form-input:focus {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .modal-form-icon {
   fill: #2e2f42;
