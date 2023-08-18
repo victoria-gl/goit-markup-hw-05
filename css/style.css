@@ -1034,6 +1034,8 @@ address {
 }
 .modal-submit-btn {
   display: block;
+  align-items: center;
+  justify-content: center;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
