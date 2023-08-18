@@ -597,6 +597,8 @@ address {
 }
 
 .footer-form {
+  display: flex;
+  gap: 24px;
 }
 .footer-form-input {
   width: 264px;
@@ -604,15 +606,15 @@ address {
   flex-shrink: 0;
   background-color: transparent;
   border-radius: 4px;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #ffffff;
 
-  padding: 8px 16px;
+  padding-left: 16px;
 
   font-size: 12px;
-  letter-spacing: 0.48px;
-  margin-right: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .footer-form-input::placeholder {
@@ -631,6 +633,13 @@ address {
   margin: 0 auto;
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  min-width: 165px;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .footer-bt-icon {
